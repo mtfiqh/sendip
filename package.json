@@ -1,0 +1,35 @@
+{
+  "name": "sendip",
+  "version": "1.0.0",
+  "description": "a bot to send your public ip to your email when public ip changed",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtfiqh/sendip.git"
+  },
+  "keywords": [
+    "publicip",
+    "sendip",
+    "send",
+    "public",
+    "ip",
+    "to",
+    "email"
+  ],
+  "author": "Muhammad Taufiq Hidayat (mtfiqh)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtfiqh/sendip/issues"
+  },
+  "homepage": "https://github.com/mtfiqh/sendip#readme",
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "external-ip": "^2.3.1",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.6"
+  }
+}
